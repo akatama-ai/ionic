@@ -1,0 +1,103 @@
+.map-container
+{
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+
+  
+}
+.map
+  {
+    height: 100%;
+    width: 100%;
+  }
+.my_label 
+{
+    color: red;
+    background-color: transparent;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: auto;     
+    white-space: nowrap;
+    padding: 4px;
+    border: 1px solid grey;
+    border-radius:3px;   
+    box-shadow: 2px 2px 20px #888888;
+}
+
+.gm-style div.labels.labels-custom{
+    width: auto !important;
+  }
+  .main-custom-hanel {
+    width: 200px !important;
+  }
+.left-image-hanel {
+  background-image: url(../img/marker1.png);
+    background-position: center 0px;
+    display: inline-block;
+    float: left;
+    height: 65px;
+    background-size: 52px;
+    /*margin-top: 30px;*/
+    margin-left: -3px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 84px;
+    z-index: 10000000;
+  }
+  .left-image-hanel img{
+    border-radius: 50px;
+    height: 45px;
+    left: 19.5px;
+    position: absolute;
+    top: 3.4px;
+    width: 45px;
+  }
+@media (max-width: 768px){
+  .gm-style div.labels.labels-custom{
+    width: auto !important;
+  }
+  .main-custom-hanel {
+    min-height: 69px;
+    width: 10000px !important;
+    height:auto;
+  }
+  /*.left-image-hanel {
+   background-image: url("../img/map-location.png");
+    background-position: center -1px;
+    display: inline-block;
+    float: left;
+    height: 93px;
+    margin-top: -3px;
+    position: relative;
+    width: 84px;
+    z-index: 10000000;
+  }
+  .left-image-hanel img{
+    border-radius: 47px;
+    height: 62px;
+    left: 8px;
+    position: absolute;
+    top: 9px;
+    width: 62px;
+  }*/
+}
+.all-deltail {
+    width: 90px;
+    margin-top: 37px;
+    margin-left: 62px;
+    position: absolute;
+}
+span.name-del-property {
+    color: #c55e00 !important;
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 5px 10px #acc5df;
+    border-radius:25%;
+    display: block;
+    margin-top: 16px;
+    text-transform: lowercase;
+}
+

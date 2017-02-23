@@ -1,0 +1,50 @@
+<ion-view class="transfer-to-bank-view">
+  <ion-nav-title class="has-tabs-top">
+    <span>To Bank Card</span>
+  </ion-nav-title>
+
+  <ion-content has-header="true">
+      <div class="bg"></div>
+      <div class="list">
+  <label class="item item-input">
+    <span class="input-label">Name</span>
+    <input type="text" placeholder="Cardholder's Name">
+
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Card No.</span>
+    <input type="text" placeholder="Cardholder's Card No">
+
+  </label>
+
+  <label class="item item-input item-select">
+    <div class="input-label">
+      Bank
+    </div>
+    <select>
+    <option selected>Select</option>
+      <option>VCB</option>
+      <option>ACB</option>
+      <option>BIDV</option>
+    </select>
+  </label>
+
+  <div class="pd-10"></div>
+  <label class="item item-input">
+    <span class="input-label">Amount</span>
+    <input type="text" placeholder="Amount">
+
+  </label>
+
+    <div class="padding">
+      <p>A service fee of 0.1% is charged.</p>
+    </div>
+  <div class="padding">
+        <button class="button button-block button-small button-positive">Next</button>
+        <p><a href="#">No payment method available. Please add bank card!</a></p>
+      </div>
+</div>
+
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,11 @@
+.discover-detail-view .item-image{
+	max-height: 220px;
+	height: 100%;
+}
+.discover-detail-view .item-image img{
+	max-height: 220px;
+	height: 100%;
+}
+.discover-detail-view span.item {
+	font-size: 12px;
+}

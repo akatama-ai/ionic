@@ -1,0 +1,37 @@
+.transfer-to-account-view .item-input-inset .item-input-wrapper input{
+	width: 100%;
+}
+.transfer-to-account-view .list-inset{
+	margin-top: 15px;
+    margin-bottom: 0px;
+}
+.transfer-to-account-view #content{
+	padding-top: 160px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+}
+.transfer-to-account-view .item-input{
+	border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.transfer-to-account-view #profile-info{
+	top:-23px;
+}
+.transfer-to-account-view #profile-name{
+	margin: 5px 0;
+}
+.transfer-to-account-view p a {
+    font-size: 12px;
+    color: #387ef5;
+}
+.transfer-to-account-view.pane {
+    background: #f1f1f1;
+}
+.transfer-to-bank-view{
+	background: #f1f1f1;
+}
+.transfer-to-bank-view p a {
+    font-size: 12px;
+    color: #387ef5;
+}

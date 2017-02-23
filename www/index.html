@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/account.css" rel="stylesheet">
+    <link href="css/transfer.css" rel="stylesheet">
+     <link href="css/discover.css" rel="stylesheet">
+    <link href="css/friend.css" rel="stylesheet">
+    <link href="css/map.css" rel="stylesheet">
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- show venu map -->
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=visualization,places&key=AIzaSyBYpNL7q1nL29FafMzm9mlmxDLbM8EnPGA"></script>
+    <script src="lib/ngmap/build/scripts/ng-map.min.js"></script>
+
+    <script src="lib/underscore/underscore-min.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <script src="cordova.js"></script>
+    
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+
+    <script src="js/controller/MapCtrl.js"></script>
+    <script src="js/controller/FriendCtrl.js"></script>
+    <script src="js/controller/TransferCtrl.js"></script>
+
+    <script src="js/services.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/directives.js"></script>
+     <script src="https://ubcc.io/ubcc_website/static/js/markerwithlabel.js"></script>
+  </head>
+
+  <body ng-app="ubcc">
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>

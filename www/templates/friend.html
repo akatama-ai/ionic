@@ -1,0 +1,32 @@
+<ion-view class="friend-view">
+  <ion-nav-title>
+    <span>Friend</span>
+  </ion-nav-title>
+  <ion-content>
+ <div class="item-input-inset">
+  <label class="item-input-wrapper">
+    <i class="icon ion-ios-search placeholder-icon"></i>
+    <input type="search" placeholder="Search" ng-change="srchchange()" ng-model="adn.item">
+
+  </label>
+ <button class="button button-clear " ng-click="ressetserach()"><i class="ion-android-cancel "></i>
+            
+          </button>
+  
+</div>
+ <div  ng-repeat="event in events.day1">
+
+     
+
+     <a class="item item-avatar" ui-sref="app.detailFriend({friendId: event.id})">
+          <img src="{{event.background_img}}">
+          <h2 ng-repeat="speaker in event.speakers" >{{speaker.name}}</h2> <span class="time-user">{{event.time_from}}</span>
+          <p class="col-90">{{event.title}}</p>
+        </a>
+
+     </div>
+    <ion-list>
+    
+    </ion-list>
+  </ion-content>
+</ion-view>
